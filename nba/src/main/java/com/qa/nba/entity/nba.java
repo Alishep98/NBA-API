@@ -111,7 +111,7 @@ public class nba {
 	
 	@Override
 	public int hashCode() {
-		return Objects.hash(age, ppg, rpg, apg, id, name);
+		return Objects.hash(age, ppg, rpg, apg, name);
 	}
 
 	@Override
@@ -124,6 +124,6 @@ public class nba {
 			return false;
 		nba other = (nba) obj;
 		return age == other.age && Objects.equals(ppg, other.ppg) && Objects.equals(rpg, other.rpg) && Objects.equals(apg, other.apg)
-				&& id == other.id && Objects.equals(name, other.name);
+			 && Objects.equals(name, other.name);
 	}
 }
