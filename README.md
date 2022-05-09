@@ -1,10 +1,10 @@
 # NBA-API
 
-Why are we doing this?
+What is this for?
 
   The API is designed for users to be able to add and read NBA players to a database table along with some basic stats. It is intended as a way to interact with an information repository on players for recreational or analytical purposes.
   
-How I expected the challenge to go
+How I expected it to go
 
   I expected the creation of the MVP to go smoothly since it was something I had done independently already, but the writing of tests was something I thought may take more time and effort to get right.
   
